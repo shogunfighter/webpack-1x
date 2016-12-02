@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            jax: ["input/MathML","output/HTML-CSS"],
+            extensions: ["mml2jax.js"],
+            skipStartupTypeset: true,
+            messageStyle: "none",
+            "HTML-CSS": {
+                showMathMenu: false
+            }
+        });
+
+        MathJax.Hub.Configured();
+    </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+
+</head>
+<body>
+<h1>Dynamic webpack 1x</h1>
+
+<textarea id="logs" cols="80" rows="10"></textarea>
+<br clear="both"/>
+
+<canvas width="400" height="300" id="stage"></canvas>
+<br clear="both"/>
+<button>Animate</button>
+
+
+<br clear="both"/>
+<br clear="both"/>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>H</mi><mi>e</mi><mi>l</mi><mi>l</mi><mi>o</mi><mo>&#160;</mo><mi>t</mi><mi>h</mi><mi>i</mi><mi>s</mi><mo>&#160;</mo><mi>s</mi><mi>t</mi><mi>r</mi><mi>i</mi><mi>n</mi><mi>g</mi><mo>&#160;</mo><mi>i</mi><mi>s</mi><mo>&#160;</mo><mi>a</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>t</mi><mi>h</mi><mo>&#160;</mo><mi>t</mi><mi>a</mi><mi>g</mi></math>
+
+
+<script src="vendor.bundle.js" charset="utf-8"></script>
+</body>
+</html>
