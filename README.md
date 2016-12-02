@@ -5,6 +5,6 @@
 
 >lodash - node_modules
 
->MathJax - external
+>MathJax - external (CDN: https://cdn.mathjax.org/mathjax/latest/MathJax.js)
 
 >createjs (EaselJs and TweenJs) - bower_components
